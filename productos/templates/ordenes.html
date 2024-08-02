@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<main class ="container">
+     <div class="row">
+     <div class="col-md-5 offset-md-4 mt-5">
+<h1 class="display-5 py-3">Gestion de Ordenes</h1>
+<ul class="list-group">
+{% for ordenes in ordenes %}
+
+     {% comment %} <li c> {% endcomment %}
+          <a class="list-group-item my-1 bg-secondary" href = "{% url 'detalle_orden' ordenes.id %}">
+          <h2>{{ ordenes.nombre }}</h2>
+          <h5>Tamaño: {{ ordenes.detalleordenes }}</h5>
+          </a>
+     {% comment %} </li>  {% endcomment %}
+
+{% endfor %}
+
+</ul>
+</div> 
+<div/>  
+<main/>
+
+{% endblock %}

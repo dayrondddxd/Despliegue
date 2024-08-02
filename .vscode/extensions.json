@@ -1,0 +1,8 @@
+{
+     "recommendations": [
+          "batisteo.vscode-django",
+          "leizongmin.node-module-intellisense",
+          "bradlc.vscode-tailwindcss",
+          "ms-python.vscode-pylance"
+     ]
+}

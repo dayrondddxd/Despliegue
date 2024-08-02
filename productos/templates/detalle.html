@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<main class ="container">
+     <div class="row">
+     <div class="col-md-5 offset-md-4 mt-5" >
+{{ error}}
+ <form method="POST">
+     {% csrf_token %}
+     {{ form.as_p }}
+     <button class="btn btn-dark">
+          Moificar
+     </button>
+
+</form>
+
+<form class="display-flex py-4" action= "{% url 'eliminar' producto.id %}" method="POST">
+
+     {% csrf_token %}
+     <button class="btn btn-dark">
+          Eliminar
+     </button>
+</form>
+
+</ul>
+</div> 
+<div/>  
+<main/>
+
+{% endblock %}

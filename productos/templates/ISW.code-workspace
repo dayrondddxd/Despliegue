@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "ISW",
+			"path": "../.."
+		},
+		{
+			"name": "framework-1",
+			"path": "../../../framework-1"
+		}
+	],
+	"settings": {}
+}

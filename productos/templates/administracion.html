@@ -1,0 +1,30 @@
+
+
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<main class="container py-5 " style="width: 50rem">
+   
+     <section class="card card-body" >
+          <h1 class="display-3 text-center">Administracion</h1>
+
+
+
+{% comment %} <div class="text-center mt-5 ">
+     <a class="btn btn-dark" d-grid grp-2 href="/productos">Gestionar Productos<a/><br>
+     <a class="btn btn-dark mx-1">Gestionar Clientes<a/><br>
+     <a class="btn btn-dark mx-1">Gestionar Proovedores<a/><br>
+     <a class="btn btn-dark mx-1">Gestionar Ordenes<a/><br>
+<div/> {% endcomment %}
+<div class="d-grid gap">
+     <a class="btn btn-dark mx-2" d-grid grp-2 href="/productos">Gestionar Productos<a/><br>
+     <a class="btn btn-dark mx-2">Gestionar Clientes<a/><br>
+     <a class="btn btn-dark mx-2">Gestionar Proovedores<a/><br>
+     <a class="btn btn-dark mx-2" d-grid grp-2 href="/ordenes">Gestionar Ordenes<a/><br>
+   </div>
+<section>
+<main>
+
+{% endblock %}
